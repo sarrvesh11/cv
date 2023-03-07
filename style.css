@@ -1,0 +1,178 @@
+body {
+    margin: 0px;
+}
+
+#body-header {
+    
+    height: 60vh;
+    opacity: 0.9;
+    background-image: url("mohamed-m-6MXDP9u6fmU-unsplash.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+
+}
+.horizontal-list li a i{
+    margin-top: 300%;
+    font-size: large;
+    color: white;
+    border-radius: 50%;
+}
+
+.horizontal-list li a {
+    color: black;
+    text-decoration: none;
+}
+
+.horizontal-list li a:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196,0.2);
+}
+
+.text-center {
+    text-align: center;
+}
+#name-social-container{
+    margin-top: 20vh;
+}
+#my-name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 10;
+    margin-bottom: 0.1rem;
+    font-style: italic;
+}
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -10vh;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+#about-me p{
+    background-position: center;
+    text-align: center;
+    text-shadow: 2cm;
+    font-weight: 200 ;
+    text-transform: initial;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+section{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    
+section:nth-child(2n+1){
+    background-color: white;
+}
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+
+}
+.section-heading span{
+    font-size: 40px;
+    color: rgb(29, 90, 223);
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+
+#education{
+    margin-top: 2%;
+}
+.timeline{
+    position: relative;
+    width: 75%;
+    border: dotted;
+    
+}
+.timeline-box{
+    position: relative;
+    margin: 5px;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    border: 2px solid black;
+    text-align: left;
+    font-family: cursive;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 10px 5px 8px black;
+    
+}
+.timeline-box:nth-child(2n){
+    left: 53%;
+}
+#contact{
+    margin-top: 10px;
+    background-color: lightslategray;
+}
+.contact-detail{
+    margin-left: 20px;
+}
+
+
+
+
+
+* {box-sizing:border-box}
+
+
+.container {
+  width: 50%; 
+  background-color: #ddd; 
+  border-radius: 0.8rem;
+  box-shadow: 1px 4px 5px lightblue;
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  color: white; }
+
+  .C{width: 80%; background-color: rgb(61, 44, 79); border-radius: 0.8rem; box-shadow: 1px 4px 5px lightblue; }
+  .DSA {width: 70%; background-color: rgb(61, 44, 79); border-radius: 0.8rem; box-shadow: 1px 4px 5px lightblue;}
+  .html {width: 65%; background-color: rgb(61, 44, 79); border-radius: 0.8rem; box-shadow: 1px 4px 5px lightblue;}
+.css {width: 55%; background-color: rgb(61, 44, 79); border-radius: 0.8rem; box-shadow: 1px 4px 5px lightblue;} 
+.js {width: 65%; background-color: rgb(61, 44, 79); border-radius: 0.8rem; box-shadow: 1px 4px 5px lightblue;} 
+.php {width: 60%; background-color: rgb(61, 44, 79); border-radius: 0.8rem; box-shadow: 1px 4px 5px lightblue;}
+.JAVA {width: 45%; background-color: rgb(61, 44, 79); border-radius: 0.8rem; box-shadow: 1px 4px 5px lightblue;}
+
+#experience{
+    margin-top: 2%;
+   
+}
+.timeline{
+    background-color: rgb(241, 247, 251);
+}
